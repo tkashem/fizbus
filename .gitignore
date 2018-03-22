@@ -1,0 +1,4 @@
+# ignore binaries made by go
+debug
+main
+debug.test

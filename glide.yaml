@@ -1,0 +1,14 @@
+package: github.com/tkashem/fizbus
+import:
+- package: github.com/golang/mock
+  version: bd3c8e81be01eef76d4b503f5e687d2d1354d2d9
+  subpackages:
+  - gomock
+- package: github.com/satori/go.uuid
+  version: f9ab0dce87d815821e221626b772e3475a0d2749
+- package: github.com/streadway/amqp
+  version: 2e25825abdbd7752ff08b270d313b93519a0a232
+- package: github.com/stretchr/testify
+  version: c5d7a69bf8a2c9c374798160849c071093e41dd1
+  subpackages:
+  - assert
